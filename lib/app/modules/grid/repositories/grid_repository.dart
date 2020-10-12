@@ -47,13 +47,11 @@ class GridRepository extends Disposable {
         List<CompanyModel> companys = response.data['data'].map<CompanyModel>((e) {
           return CompanyModel.fromJson(e);
         }).toList();
-        print(response.data['data']);
         return CompanyList(isEmpty: companys.length <= 0, isLoading: false, companys: companys);
       } else {
         return CompanyList(isEmpty: true, isLoading: false);
       }
     } catch(error) {
-      print(error);
       return CompanyList(isLoading: false, isEmpty: true);
     }
   }
@@ -74,13 +72,11 @@ class GridRepository extends Disposable {
         List<ProductModel> products = response.data['data'].map<ProductModel>((e) {
           return ProductModel.fromJson(e);
         }).toList();
-        print(response.data['data']);
         return ProductList(isEmpty: products.length <= 0, isLoading: false, products: products);
       } else {
         return ProductList(isEmpty: true, isLoading: false);
       }
     } catch(error) {
-      print(error);
       return ProductList(isLoading: false, isEmpty: true);
     }
   }

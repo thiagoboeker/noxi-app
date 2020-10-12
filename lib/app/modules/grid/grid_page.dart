@@ -212,7 +212,6 @@ class _GridPageState extends State<GridPage> {
                       child: ListView.separated(
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, index) {
-                            print(_selectedIndex == index);
                             return ChoiceChip(
                               elevation: 10,
                               backgroundColor: Colors.white,

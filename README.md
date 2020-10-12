@@ -1,16 +1,29 @@
-# noxi
+# Noxi
 
-A new Flutter project.
+Projeto no segmento de e-commerce para pontos de fidelidade. O objetivo é desburocratizar
+a vida do cliente que busca mais vantagens na hora de comprar e para o vendedor que
+deseja manter ou expandir sua base de clientes.
 
-## Getting Started
+# O App
 
-This project is a starting point for a Flutter application.
+Nosso app esta sendo desenvolvido em Flutter. Alguns dos motivos
+para nossa escolha listados abaixo.
 
-A few resources to get you started if this is your first Flutter project:
+    - Hibrido
+    - Dart(Linguagem mais concisa e tipada)
+    - Bom uso de conceitos reativos
+    - Material Design por padrao
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# O Design
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Para a identidade do nosso App optamos por um layout mais simples,
+minimalista e suave.
+
+![image](home_image.jpeg)
+
+
+A paleta de cores apresenta essa suavidade e o constraste com o laranja nos ajuda a destacar algumas coisas e ainda assim manter a suavidade.
+
+# Conclusao
+
+Flutter é uma plataforma fantastica. E modéstia parte nosso layout ficou muito bom, nós amamos o resultado.
