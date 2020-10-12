@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "841960660997",
+    "firebase_url": "https://bigo-e65cf.firebaseio.com",
+    "project_id": "bigo-e65cf",
+    "storage_bucket": "bigo-e65cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841960660997:android:3accc69b8fa30e0581fc6c",
+        "android_client_info": {
+          "package_name": "com.thiagoboeker.noxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841960660997-ga3vgr2fujmo7rf37emve8ojq2821lq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp7oHCR6VDo-jzoWiHZfbA7H1wuGFvOkk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841960660997-ga3vgr2fujmo7rf37emve8ojq2821lq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
